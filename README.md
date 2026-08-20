@@ -1,6 +1,6 @@
 # 📱 Contact System
 
-A simple and user-friendly Contact Management System built using **PHP, MySQL and Bootstrap**.
+A Simple and user-friendly Contact Management System built using **PHP, MySQL and Bootstrap**.
 
 This project allows users to manage contact information through a clean and responsive web interface.
 
@@ -37,6 +37,52 @@ Contact-Project
 ├── bootstrap.min.css
 ├── custom.css.
 
+<h2>🗄️ Database</h2>
+
+The project uses MySQL for storing contact information.
+
+<h3>Contact Table</h3>
+
+The contact table stores:
+
+<ul>
+<li>ID</li>
+<li>Full Name</li>
+<li>Phone</li>
+<li>Email</li>
+<li>Save</li>
+</ul>
+<h2>⚙️ How to Run</h2>
+<ul>
+<li>Install XAMPP.</li>
+<li>Start Apache and MySQL from XAMPP.</li>
+<li>Copy the project folder into:</li>
+<li>C:\xampp\htdocs\</li>
+<li>Create a MySQL database named:</li>
+<li>contact_project</li>
+<li>Create the required tables and columns.</li>
+<li>Open the project in your browser:</li>
+<li>http://localhost/Contact/</li>
+</ul>
+
+<h2>🎯 Project Purpose</h2>
+<ul>
+<li>This project was created to practice:</li>
+<li>PHP CRUD operations</li>
+<li>MySQL database connectivity</li>
+<li>HTML forms</li>
+<li>Bootstrap styling</li>
+<li>PHP GET and POST methods</li>
+<li>SQL INSERT, SELECT and UPDATE queries</li>
+<li>Dynamic data fetching from MySQL</li>
+
+</ul>
+<h3>👨‍💻 Author</h3>
+<p>Rohit Kapoor</p>
+<p>Skills Practiced</p>
+</p> HTML | CSS | Bootstrap | PHP | MySQL |</p>
+
+<div>
  <h1>Contact App Dashboard</h1>
  <img  src="1.png">
 
@@ -51,3 +97,4 @@ Contact-Project
 
 <h1>Contact is Delete to Dashboard</h1>
 <img  src="5.png">
+</div>
