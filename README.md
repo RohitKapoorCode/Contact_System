@@ -1,6 +1,6 @@
 # 📱 Contact System
 
-A Simple and user-friendly Contact Management System built using **PHP, MySQL and Bootstrap**.
+A Simple and user-friendly Contact Management System built using **PHP, MySQL and Tailwind Css**.
 
 This project allows users to manage contact information through a clean and responsive web interface.
 
@@ -19,8 +19,7 @@ This project allows users to manage contact information through a clean and resp
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3
-- Bootstrap
+- Tailwind Css
 - PHP
 - MySQL
 - XAMPP
@@ -29,13 +28,11 @@ This project allows users to manage contact information through a clean and resp
 ## 📂 Project Structure
 
 Contact-Project
-├── index.php
+├── home.php
 ├── form.php
 ├── store.php
 ├── update.php
 ├── Delete.php
-├── bootstrap.min.css
-├── custom.css.
 
 <h2>🗄️ Database</h2>
 
@@ -80,7 +77,7 @@ The contact table stores:
 <h3>👨‍💻 Author</h3>
 <p>Rohit Kapoor</p>
 <p>Skills Practiced</p>
-</p> HTML | CSS | Bootstrap | PHP | MySQL |</p>
+</p> HTML | Tailwind CSS | PHP | MySQL |</p>
 
 <div>
  <h1>Contact App Dashboard</h1>
@@ -90,11 +87,11 @@ The contact table stores:
  <img  src="2.png">
 
 <h1>Update Contact Detail</h1>
- <img  src="3.png">
+ <img  src="5.png">
 
 <h1>Contact Delete Message</h1>
-<img  src="4.png">
+<img  src="3.png">
 
 <h1>Contact is Delete to Dashboard</h1>
-<img  src="5.png">
+<img  src="4.png">
 </div>
