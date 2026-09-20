@@ -1,10 +1,14 @@
 
 <?php
-if(isset($_POST['submit'])){
-$fullName = $_POST['first_name'];
-$phone = $_POST['phone'];
-$email = $_POST['email'];
-$save =$_POST['ContactSave'];
+
+ob_start(); 
+
+
+  if(isset($_POST['submit'])){
+  $fullName = $_POST['first_name'];
+  $phone = $_POST['phone'];
+  $email = $_POST['email'];
+  $save =$_POST['ContactSave'];
 
 
  
@@ -15,10 +19,10 @@ $save =$_POST['ContactSave'];
     $result = mysqli_query($conn,$Sql);
 
 
-header("Location: http://localhost/Rohit%20Project/contact%20Project/home.php");
-exit;
+     header("Location: http://localhost/Rohit%20Project/contact%20Project/home.php");
+     exit;
 }
-mysqli_close($conn);
+    mysqli_close($conn);
 
 ?>
     
