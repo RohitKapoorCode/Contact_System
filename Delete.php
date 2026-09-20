@@ -11,7 +11,7 @@ $sql = "DELETE FROM contact WHERE Id = {$po}";
 $result = mysqli_query($conn, $sql)
     or die("Query Unsuccessful: " . mysqli_error($conn));
 
-header("Location: index.php");
+header("Location: home.php");
 exit;
 mysqli_Close($conn);
 
