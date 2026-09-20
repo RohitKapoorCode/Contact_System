@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
     $save = $_POST['ContactSave'];
 
 
-    $conn = mysqli_connect("://aivencloud.com", "avnadmin", getenv('DB_PASSWORD'), "defaultdb", 27958) or die("Connection Failed");
+    $conn = mysqli_connect("mysql-4acf231-rk7612570-43fe.g.aivencloud.com", "avnadmin", getenv('DB_PASSWORD'), "defaultdb", 27958) or die("Connection Failed");
 
  
     $sql = "INSERT INTO contact(FullName, Phone, Email, Save) VALUES ('{$fullName}', '{$phone}', '{$email}', '{$save}')";
