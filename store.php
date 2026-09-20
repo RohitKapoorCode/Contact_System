@@ -17,12 +17,12 @@ ob_start();
 
     $Sql = "INSERT INTO contact(FullName,Phone,Email,Save) VALUES ('{$fullName}', '{$phone}', '{$email}','{$save}')";
     $result = mysqli_query($conn,$Sql);
-
+    mysqli_close($conn);
 
      header("Location: http://localhost/Rohit%20Project/contact%20Project/home.php");
      exit;
 }
-    mysqli_close($conn);
+    
 
 ?>
     
