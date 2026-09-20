@@ -11,9 +11,9 @@ if(isset($_POST['submit'])){
 
     $conn = mysqli_connect("://aivencloud.com", "avnadmin", getenv('DB_PASSWORD'), "defaultdb", 27958) or die("Connection Failed");
 
- ी
-    $Sql = "INSERT INTO contact(FullName, Phone, Email, Save) VALUES ('{$fullName}', '{$phone}', '{$email}', '{$save}')";
-    $result = mysqli_query($conn, $Sql);
+ 
+    $sql = "INSERT INTO contact(FullName, Phone, Email, Save) VALUES ('{$fullName}', '{$phone}', '{$email}', '{$save}')";
+    $result = mysqli_query($conn, $sql);
 
 
     mysqli_close($conn);
