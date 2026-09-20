@@ -7,7 +7,9 @@ $email = $_POST['email'];
 $save =$_POST['ContactSave'];
 
 
- $conn = mysqli_connect("localhost","root","","contact_project") or die("Connection Falied ");
+ 
+  $conn = mysqli_connect("mysql-4acf231-rk7612570-43fe.g.aivencloud.com", "avnadmin", getenv('DB_PASSWORD'), "defaultdb", 27958) or die("Connection Failed");
+
 
     $Sql = "INSERT INTO contact(FullName,Phone,Email,Save) VALUES ('{$fullName}', '{$phone}', '{$email}','{$save}')";
     $result = mysqli_query($conn,$Sql);
