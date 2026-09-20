@@ -99,7 +99,9 @@
           </div>
 
            <?php
-            $conn=mysqli_connect("localhost","root","","contact_project") or die("Connection Failed");
+            
+            $conn = mysqli_connect("mysql-4acf231-rk7612570-43fe.g.aivencloud.com", "avnadmin", getenv('DB_PASSWORD'), "defaultdb", 27958) or die("Connection Failed");
+
 
             $Sql ="SELECT * FROM contact JOIN save WHERE contact.save = save.id ORDER BY contact.Id ASC";
             $result = mysqli_query($conn,$Sql) or die("Query Unsuccessful");
