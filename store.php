@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     $result = mysqli_query($conn,$Sql);
     mysqli_close($conn);
 
-    echo "<script>window.location.href='http://localhost/Rohit%20Project/contact%20Project/home.php';</script>";
+    echo "<script>window.location.href='home.php';</script>";
     exit;
 }
 
