@@ -116,9 +116,7 @@
               <table>
                 <thead>
                   <tr></tr>
-                    <?php foreach ($result as $i): ?>
-                    <th><?php $i ?></th>
-                    <?php endforeach; ?>      
+                    <th>S.No</th>     
                     <th>Full Name</th>
                     <th>Phone</th>
                     <th>Email</th>
@@ -128,11 +126,12 @@
                 </thead>
 
                 <tbody>
-                  <?php
+                   <?php
+                    $srno = 1; // 1. Loop shuru hone se pehle counter ko 1 par set kiya
                     while($row = mysqli_fetch_assoc($result)){
                   ?>
                   <tr>
-                    <td class="col-id"><?php echo $row['Id']; ?></td>
+                    <td class="col-id"><?php echo $srno++; ?></td>
                     <td class="col-name"><?php echo $row['FullName']; ?></td>
                     <td class="col-phone"><?php echo $row['Phone']; ?></td>
                     <td class="col-email"><?php echo $row['Email']; ?></td>
