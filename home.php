@@ -115,8 +115,10 @@
 
               <table>
                 <thead>
-                  <tr>
-                    <th>id</th>
+                  <tr></tr>
+                    <?php foreach ($result as $i): ?>
+                    <th><?php $i ?></th>
+                    <?php endforeach; ?>      
                     <th>Full Name</th>
                     <th>Phone</th>
                     <th>Email</th>
